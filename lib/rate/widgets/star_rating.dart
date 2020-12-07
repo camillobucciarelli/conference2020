@@ -13,7 +13,7 @@ class StarRating extends StatelessWidget {
   Widget build(BuildContext context) {
     return SmoothStarRating(
       allowHalfRating: false,
-      onRatingChanged: onRatingChanged,
+      onRated: onRatingChanged,
       starCount: 5,
       rating: rating,
       size: 40.0,

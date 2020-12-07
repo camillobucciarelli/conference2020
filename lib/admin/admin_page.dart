@@ -99,7 +99,7 @@ class AdminPage extends StatelessWidget {
   Future<bool> handleCsvTickets() async {
     try {
       var file =
-          await FilePicker.getFile(type: FileType.ANY, fileExtension: 'csv');
+          await FilePicker.getFile(type: FileType.any, allowedExtensions:[ 'csv']);
 
       if (file == null) return false;
 

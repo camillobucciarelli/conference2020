@@ -231,7 +231,7 @@ class _HomePageState extends State<HomePage> {
     return MaterialPageRoute<Talk>(
       settings: RouteSettings(
         name: 'search',
-        isInitialRoute: false,
+        /*isInitialRoute: false,*/
       ),
       builder: (BuildContext context) => SearchResultsPage(),
     );

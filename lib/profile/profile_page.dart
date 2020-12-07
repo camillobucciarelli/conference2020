@@ -9,7 +9,7 @@ import 'package:dynamic_theme/dynamic_theme.dart';
 import 'package:firebase_remote_config/firebase_remote_config.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_bugfender/flutter_bugfender.dart';
+// import 'package:flutter_bugfender/flutter_bugfender.dart';
 import 'package:flutter_markdown/flutter_markdown.dart';
 import 'package:line_icons/line_icons.dart';
 import 'package:package_info/package_info.dart';
@@ -261,7 +261,7 @@ class _ProfilePageState extends State<ProfilePage> {
   void changeReminders(bool value) {
     final sharedPrefs = Provider.of<SharedPreferences>(context);
     analytics.setUserProperty(name: 'reminders', value: '$value');
-    FlutterBugfender.setDeviceString('reminders', '$value');
+    // FlutterBugfender.setDeviceString('reminders', '$value');
     sharedPrefs.setBool('reminders', value);
     setState(() {});
   }
@@ -276,7 +276,7 @@ class _ProfilePageState extends State<ProfilePage> {
       parameters: {'target': paramValue},
     );
     analytics.setUserProperty(name: 'theme', value: paramValue);
-    FlutterBugfender.setDeviceString('theme', paramValue);
+    // FlutterBugfender.setDeviceString('theme', paramValue);
     DynamicTheme.of(context).setBrightness(target);
   }
 }
