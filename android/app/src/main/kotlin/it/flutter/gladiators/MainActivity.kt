@@ -1,4 +1,4 @@
-package dev.fluttereurope.conferenceapp
+package it.flutter.gladiators
 
 import android.os.Bundle
 import io.flutter.app.FlutterActivity

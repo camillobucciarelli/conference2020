@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "603944461702",
+    "project_id": "fluttergladiators",
+    "storage_bucket": "fluttergladiators.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:603944461702:android:ea6a59de0435a766f0b807",
+        "android_client_info": {
+          "package_name": "it.flutter.gladiators"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "603944461702-em437pijtrk7ieckfura4kote6v76rvb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSIEfCampFoUIODmt-QulHNiMujyl_naY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "603944461702-em437pijtrk7ieckfura4kote6v76rvb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
